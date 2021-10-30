@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Car Racing</title>
+        <style>
+            body{
+                background-image: url("racing.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+            </style>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        </head>
+    
+        <body onload="add()">
+            <mark><h1 style="color: white;">Formula 1... <b>All</b> or <b>Nothing</b></h1></mark>
+            <mark><h1 style="color: white;"><b>Game Status: <span id="game_stat"></span></b></h1></mark>
+            <div style="text-align: center;"><canvas style="background-color: aliceblue;" id="myCanvas" width="800" height="600"></canvas></div>
+            
+            <h4><b style="color: red">NOTE: </b>IF ROVER IS NOT VISIBLE, PLEASE PRESS ANY KEY!</h4>
+            <script src="main.js"></script>
+        </body>
+        
+</html>
